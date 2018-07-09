@@ -14,7 +14,7 @@ public class Driver {
 
         for (int i = 0; i < 3400; i++)
         {
-            ticker.tick();
+            //ticker.tick();
             System.out.println("Hours : " + ticker.hours());
             System.out.println("Minutes : " + ticker.minutes());
             System.out.println("Seconds : " + ticker.seconds());
