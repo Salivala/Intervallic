@@ -6,19 +6,12 @@ import java.util.TimerTask;
 
 public class Driver {
     public static void main(String[] args) {
-        IntervallicTicker ticker = new IntervallicTicker.Builder()
-                .hours(60)
-                .minutes(23)
-                .seconds(1)
-                .build();
-
-        for (int i = 0; i < 3400; i++)
-        {
-            //ticker.tick();
-            System.out.println("Hours : " + ticker.hours());
-            System.out.println("Minutes : " + ticker.minutes());
-            System.out.println("Seconds : " + ticker.seconds());
-        }
+        Thread ticker1 = new Thread(new IntervallicTicker.Builder().minutes(1).build());
+        Thread ticker2 = new Thread(new IntervallicTicker.Builder().seconds(3).build());
+        Thread ticker3 = new Thread(new IntervallicTicker.Builder().hours(1).build());
+        ticker1.start();
+        ticker2.start();
+        ticker3.start();
     }
 
 }

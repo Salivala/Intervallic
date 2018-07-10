@@ -1,16 +1,21 @@
 import java.awt.desktop.UserSessionEvent;
 import java.util.Objects;
 
+import static java.lang.Thread.sleep;
+
 /**
  * Purpose : Provides a simple to use ticker that can be incremented or decremented by seconds
  */
-public class IntervallicTicker {
+public class IntervallicTicker implements Runnable{
     private static final double MAX_MINUTE_AMOUNT = 59;
     private static final double MINIMUM_MINUTE_AMOUNT = 0.0;
     private static final double INVALID_MINUTE_AMOUNT = -1.0;
     private static final double MAX_SECOND_AMOUNT = 59.0;
     private static final double MINIMUM_SECOND_AMOUNT = 0.0;
     private static final double INVALID_SECOND_AMOUNT = -1.0;
+    private final double startingHours;
+    private final double startingMinutes;
+    private final double startingSeconds;
 
     /**
      * Fields for client-side readability
@@ -19,11 +24,21 @@ public class IntervallicTicker {
     private double minutes;
     private double seconds;
 
-    /*
-     * Internal ticker clock
-     * Atom: The smallest interval of time the clock class will manage ( currently seconds )
-     * TODO: Possibly extend atom functionality to work with different time units
-     **/
+    @Override
+    public void run() {
+        try {
+            while(true) { //TODO: Consider a more elegant way to handle a repeating interval
+                System.out.println(hours + " " + minutes + " " + seconds);
+                sleep(1000);
+                decrement();
+            }
+        }
+        catch(InterruptedException ex)
+        {
+        }
+    }
+
+
 
     /**
      *  Static builder class for Intervallic ticker, Initialize the containing class using inner classes
@@ -63,13 +78,17 @@ public class IntervallicTicker {
         seconds = (build.seconds <= MAX_SECOND_AMOUNT && build.seconds >= MINIMUM_SECOND_AMOUNT) ? build.seconds : INVALID_SECOND_AMOUNT;
         if ((minutes == INVALID_MINUTE_AMOUNT) || (seconds == INVALID_SECOND_AMOUNT))
         {throw new IllegalArgumentException("All builder calls must be positive!"); }
+        else {
+            startingHours = hours;
+            startingMinutes = minutes;
+            startingSeconds = seconds;
+        }
     }
 
     /**
-     * Increment the atomic counter by one ( equivalent to 1 second )
+     *  Handle a single second incrementing
      */
     IntervallicTicker increment() {
-        //this.atom++;
         if (this.seconds == MAX_SECOND_AMOUNT) {
             if (this.minutes == MAX_MINUTE_AMOUNT) {
                 this.hours++;
@@ -91,10 +110,14 @@ public class IntervallicTicker {
         if (this.seconds == MINIMUM_MINUTE_AMOUNT) {
             if (this.minutes == MINIMUM_MINUTE_AMOUNT) {
                 if (this.hours == 0.0) {
-                    //TODO: complete this stub
+                    this.hours = startingHours;
+                    this.minutes = startingMinutes;
+                    this.seconds = startingSeconds;
                 }
                 else {
-                    //TODO: complete this stub
+                    this.hours--;
+                    this.minutes = 59;
+                    this.seconds = 59;
                 }
             }
             else {
@@ -108,13 +131,6 @@ public class IntervallicTicker {
         return this;
     }
 
-    /**
-     * Increment the atomic counter ticks amount of times
-     * @param ticks amount of times to tick atomic counter
-     **/
-    public void tick(double ticks)  {
-
-    }
 
     /**
      * getter for hours. Because the synctimes method can potentially be expensive, only

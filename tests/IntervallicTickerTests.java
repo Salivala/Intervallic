@@ -8,7 +8,6 @@ public class IntervallicTickerTests {
 
     @Test
     public void sameObjectEqualityTest() {
-        //AssertE(oneHour.decrement() == afterDecrementTestTicker);
         assertEquals(oneHour, oneHour);
     }
 
@@ -55,6 +54,24 @@ public class IntervallicTickerTests {
     }
 
     @Test
-    public void incrementTest4() {
+    public void decrementTest1() {
+        assertEquals(
+                "1 hour did not decrement to 0 hours 59 minutes 59 seconds",
+                new IntervallicTicker.Builder().hours(1).build().decrement(),
+                new IntervallicTicker.Builder().minutes(59).seconds(59).build()
+        );
+    }
+
+    @Test
+    public void decrementTest2() {
+        assertEquals(
+                "Did not reset properly for decrementing",
+                new IntervallicTicker.Builder().seconds(1).build().decrement().decrement(),
+                new IntervallicTicker.Builder().seconds(1).build()
+        );
+    }
+
+    @Test
+    public void decrementTest3() {
     }
 }
