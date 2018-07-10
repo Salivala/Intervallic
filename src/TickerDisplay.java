@@ -15,8 +15,6 @@ public class TickerDisplay implements Observer{
 
     @Override
     public void update(short hours, short minutes, short seconds) {
-        timeLeft.setText("test");
-        System.out.println("pls");
-        //slider1.setMaximum();
+        timeLeft.setText(hours + ":" + minutes + ":" + seconds);
     }
 }
