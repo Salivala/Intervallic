@@ -1,15 +1,22 @@
 import javax.swing.*;
 
-public class TickerDisplay {
+public class TickerDisplay implements Observer{
     private JPanel panel1;
     private JSlider slider1;
     private JButton startIntervallicButton;
+    private JLabel timeLeft;
+    JFrame frame = new JFrame("TickerDisplay");
 
     TickerDisplay() {
-        JFrame frame = new JFrame("TickerDisplay");
-        frame.setContentPane(new TickerDisplay().panel1);
+        frame.setContentPane(this.panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
         frame.setVisible(true);
+    }
+
+    @Override
+    public void update(short hours, short minutes, short seconds) {
+        timeLeft.setText("test");
+        System.out.println("pls");
+        //slider1.setMaximum();
     }
 }

@@ -1,12 +1,13 @@
 import java.awt.desktop.UserSessionEvent;
 import java.util.Objects;
+import java.util.concurrent.Callable;
 
 import static java.lang.Thread.sleep;
 
 /**
  * Purpose : Provides a simple to use ticker that can be incremented or decremented by seconds
  */
-public class IntervallicTicker implements Runnable{
+public class IntervallicTicker implements Callable, Runnable {
     private static final short MAX_MINUTE_AMOUNT = 59;
     private static final short MINIMUM_MINUTE_AMOUNT = 0;
     private static final short INVALID_MINUTE_AMOUNT = -1;
@@ -23,6 +24,20 @@ public class IntervallicTicker implements Runnable{
     private short hours;
     private short minutes;
     private short seconds;
+
+    @Override
+    public IntervallicTicker call() throws Exception {
+        try {
+            while(true) { //TODO: Consider a more elegant way to handle a repeating interval
+                sleep(1000);
+                decrement();
+            }
+        }
+        catch(InterruptedException ex)
+        {
+        }
+        return this;
+    }
 
     /**
      *  Static builder class for Intervallic ticker, Initialize the containing class using inner classes
@@ -120,7 +135,7 @@ public class IntervallicTicker implements Runnable{
      * run the calculation when you actually want a prettified time.
      * @return return the hours the ticker has left, after calling syncTicker
      */
-    double hours() {
+    short hours() {
         return hours;
     }
 
@@ -129,7 +144,7 @@ public class IntervallicTicker implements Runnable{
      * run the calculation when you actually want a prettified time.
      * @return return the minutes the ticker has left, after calling syncTicker
      */
-    double minutes() {
+    short minutes() {
         return minutes;
     }
 
@@ -138,7 +153,7 @@ public class IntervallicTicker implements Runnable{
      * run the calculation when you actually want a prettified time.
      * @return return the seconds the ticker has left, after calling syncTicker
      */
-    double seconds() {
+    short seconds() {
         return seconds;
     }
 
@@ -166,7 +181,6 @@ public class IntervallicTicker implements Runnable{
     public void run() {
         try {
             while(true) { //TODO: Consider a more elegant way to handle a repeating interval
-                System.out.println(hours + " " + minutes + " " + seconds);
                 sleep(1000);
                 decrement();
             }
