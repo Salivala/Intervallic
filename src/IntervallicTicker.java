@@ -24,22 +24,6 @@ public class IntervallicTicker implements Runnable{
     private short minutes;
     private short seconds;
 
-    @Override
-    public void run() {
-        try {
-            while(true) { //TODO: Consider a more elegant way to handle a repeating interval
-                System.out.println(hours + " " + minutes + " " + seconds);
-                sleep(1000);
-                decrement();
-            }
-        }
-        catch(InterruptedException ex)
-        {
-        }
-    }
-
-
-
     /**
      *  Static builder class for Intervallic ticker, Initialize the containing class using inner classes
      *  constructor, then chain option methods together, ending with .build to get an Intervallic ticker.
@@ -131,7 +115,6 @@ public class IntervallicTicker implements Runnable{
         return this;
     }
 
-
     /**
      * getter for hours. Because the synctimes method can potentially be expensive, only
      * run the calculation when you actually want a prettified time.
@@ -177,5 +160,19 @@ public class IntervallicTicker implements Runnable{
     @Override
     public int hashCode() {
         return Objects.hash(seconds, minutes, hours);
+    }
+
+    @Override
+    public void run() {
+        try {
+            while(true) { //TODO: Consider a more elegant way to handle a repeating interval
+                System.out.println(hours + " " + minutes + " " + seconds);
+                sleep(1000);
+                decrement();
+            }
+        }
+        catch(InterruptedException ex)
+        {
+        }
     }
 }
