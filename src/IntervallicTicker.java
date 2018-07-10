@@ -6,6 +6,7 @@ import static java.lang.Thread.sleep;
 
 /**
  * Purpose : Provides a simple to use ticker that can be incremented or decremented by seconds
+ * t
  */
 public class IntervallicTicker implements Callable, Runnable {
     private static final short MAX_MINUTE_AMOUNT = 59;
