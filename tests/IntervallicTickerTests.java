@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class IntervallicTickerTests {
-    private IntervallicTicker oneHour = new IntervallicTicker.Builder().hours(1).minutes(0).seconds(0).build();
+    private IntervallicTicker oneHour = new IntervallicTicker.Builder().hours((short) 1).build();
 
     @Test
     public void sameObjectEqualityTest() {
@@ -13,24 +13,24 @@ public class IntervallicTickerTests {
 
     @Test
     public void differentObjectsAreNotEqual() {
-        assertNotEquals("ldawkjd", oneHour, new IntervallicTicker.Builder().minutes(3).build());
+        assertNotEquals("ldawkjd", oneHour, new IntervallicTicker.Builder().minutes((short) 3).build());
     }
 
     @Test
     public void equalsTest3() {
-        assertEquals("Objects with the same fields do not match", oneHour, new IntervallicTicker.Builder().hours(1).build());
+        assertEquals("Objects with the same fields do not match", oneHour, new IntervallicTicker.Builder().hours((short) 1).build());
     }
 
     @Test
     public void equalsTest4() {
-        assertNotEquals("Objects with different fields are equal", oneHour, new IntervallicTicker.Builder().hours(2));
+        assertNotEquals("Objects with different fields are equal", oneHour, new IntervallicTicker.Builder().hours((short) 2));
     }
 
     @Test
     public void incrementTest1() {
         assertEquals(
                 "3 seconds did not increment to 4",
-                new IntervallicTicker.Builder().seconds(3).build().increment().seconds(),
+                new IntervallicTicker.Builder().seconds((short) 3).build().increment().seconds(),
                 4.0,
                 0);
     }
@@ -39,8 +39,8 @@ public class IntervallicTickerTests {
     public void incrementTest2() {
         assertEquals(
                 "0 minutes 59 seconds did not increment to 1 minute",
-                new IntervallicTicker.Builder().seconds(59).build().increment(),
-                new IntervallicTicker.Builder().minutes(1).build()
+                new IntervallicTicker.Builder().seconds((short) 59).build().increment(),
+                new IntervallicTicker.Builder().minutes((short) 1).build()
                 );
     }
 
@@ -48,8 +48,8 @@ public class IntervallicTickerTests {
     public void incrementTest3() {
         assertEquals(
                 "0 hours 59 minutes 59 seconds did not increment to 1 hour",
-                new IntervallicTicker.Builder().minutes(59).seconds(59).build().increment(),
-                new IntervallicTicker.Builder().hours(1).build()
+                new IntervallicTicker.Builder().minutes((short) 59).seconds((short) 59).build().increment(),
+                new IntervallicTicker.Builder().hours((short) 1).build()
         );
     }
 
@@ -57,8 +57,8 @@ public class IntervallicTickerTests {
     public void decrementTest1() {
         assertEquals(
                 "1 hour did not decrement to 0 hours 59 minutes 59 seconds",
-                new IntervallicTicker.Builder().hours(1).build().decrement(),
-                new IntervallicTicker.Builder().minutes(59).seconds(59).build()
+                new IntervallicTicker.Builder().hours((short) 1).build().decrement(),
+                new IntervallicTicker.Builder().minutes((short) 59).seconds((short) 59).build()
         );
     }
 
@@ -66,8 +66,8 @@ public class IntervallicTickerTests {
     public void decrementTest2() {
         assertEquals(
                 "Did not reset properly for decrementing",
-                new IntervallicTicker.Builder().seconds(1).build().decrement().decrement(),
-                new IntervallicTicker.Builder().seconds(1).build()
+                new IntervallicTicker.Builder().seconds((short) 1).build().decrement().decrement(),
+                new IntervallicTicker.Builder().seconds((short) 1).build()
         );
     }
 

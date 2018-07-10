@@ -7,22 +7,22 @@ import static java.lang.Thread.sleep;
  * Purpose : Provides a simple to use ticker that can be incremented or decremented by seconds
  */
 public class IntervallicTicker implements Runnable{
-    private static final double MAX_MINUTE_AMOUNT = 59;
-    private static final double MINIMUM_MINUTE_AMOUNT = 0.0;
-    private static final double INVALID_MINUTE_AMOUNT = -1.0;
-    private static final double MAX_SECOND_AMOUNT = 59.0;
-    private static final double MINIMUM_SECOND_AMOUNT = 0.0;
-    private static final double INVALID_SECOND_AMOUNT = -1.0;
-    private final double startingHours;
-    private final double startingMinutes;
-    private final double startingSeconds;
+    private static final short MAX_MINUTE_AMOUNT = 59;
+    private static final short MINIMUM_MINUTE_AMOUNT = 0;
+    private static final short INVALID_MINUTE_AMOUNT = -1;
+    private static final short MAX_SECOND_AMOUNT = 59;
+    private static final short MINIMUM_SECOND_AMOUNT = 0;
+    private static final short INVALID_SECOND_AMOUNT = -1;
+    private final short startingHours;
+    private final short startingMinutes;
+    private final short startingSeconds;
 
     /**
      * Fields for client-side readability
      */
-    private double hours;
-    private double minutes;
-    private double seconds;
+    private short hours;
+    private short minutes;
+    private short seconds;
 
     @Override
     public void run() {
@@ -45,24 +45,24 @@ public class IntervallicTicker implements Runnable{
      *  constructor, then chain option methods together, ending with .build to get an Intervallic ticker.
      **/
     static class Builder {
-        private double hours = 0;
-        private double minutes = 0;
-        private double seconds = 0;
+        private short hours = 0;
+        private short minutes = 0;
+        private short seconds = 0;
 
         Builder () {
         }
 
-        Builder hours(double hour) {
+        Builder hours(short hour) {
             hours = hour;
             return this;
         }
 
-        Builder minutes(double minute) {
+        Builder minutes(short minute) {
             minutes = minute;
             return this;
         }
 
-        Builder seconds(double second) {
+        Builder seconds(short second) {
             seconds = second;
             return this;
         }
@@ -97,7 +97,7 @@ public class IntervallicTicker implements Runnable{
             }
             else {
                 this.minutes++;
-                this.seconds = 0.0;
+                this.seconds = 0;
             }
         }
         else {
