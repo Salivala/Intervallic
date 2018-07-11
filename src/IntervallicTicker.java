@@ -98,6 +98,7 @@ public class IntervallicTicker implements Runnable {
                     this.hours = startingHours;
                     this.minutes = startingMinutes;
                     this.seconds = startingSeconds;
+                    java.awt.Toolkit.getDefaultToolkit().beep();
                 }
                 else {
                     this.hours--;

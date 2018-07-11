@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerDisplay.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerDisplay.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeContainer.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -160,9 +152,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="-1" />
-    <option name="width" value="1920" />
+    <option name="width" value="960" />
     <option name="height" value="1081" />
   </component>
   <component name="ProjectView">
@@ -368,7 +360,7 @@
       <workItem from="1531290938242" duration="178000" />
       <workItem from="1531291159553" duration="6078000" />
       <workItem from="1531297286701" duration="8954000" />
-      <workItem from="1531306677971" duration="506000" />
+      <workItem from="1531306677971" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -419,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531296957625</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Gui integration complete.&#10;&#10;Slider not able to change starting time.">
+      <created>1531307371833</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531307371841</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -455,11 +454,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50512000" />
+    <option name="totallyTimeSpent" value="50789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1081" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
