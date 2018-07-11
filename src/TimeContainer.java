@@ -14,6 +14,33 @@ public class TimeContainer {
 
     @Override
     public String toString() {
-        return (hours) + ":" + (minutes) + ":" + (seconds);
+        String strHours = Short.toString(hours), strMinutes = Short.toString(minutes), strSeconds = Short.toString(seconds);
+        if (hours < 10 ) {
+            if (hours == 0) {
+                strHours = "00";
+            }
+            else {
+                strHours = "0" + hours;
+            }
+        }
+
+        if (minutes < 10 ) {
+            if (minutes == 0) {
+                strMinutes = "00";
+            }
+            else {
+                strMinutes = "0" + minutes;
+            }
+        }
+
+        if (seconds < 10 ) {
+            if (seconds == 0) {
+                strSeconds = "00";
+            }
+            else {
+                strSeconds = "0" + seconds;
+            }
+        }
+        return (strHours) + ":" + (strMinutes) + ":" + (strSeconds);
     }
 }

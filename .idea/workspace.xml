@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TickerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntervallicTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntervallicTicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextView.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TickerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TickerDisplay.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerDisplay.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TickerDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TickerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeContainer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,22 +25,14 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="TimeContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TimeContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="31">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -54,8 +40,8 @@
       <file leaf-file-name="TickerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TickerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="161">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,43 +49,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TickerThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TickerThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TickerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="299">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TickerDisplay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TickerDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TickerDisplay.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TickerDisplay.form">
-          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
       <file leaf-file-name="IntervallicTicker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntervallicTicker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
+            <state relative-caret-position="322">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TickerDisplay.form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TickerDisplay.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="TickerDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TickerDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#65#66#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +111,7 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="Interface" />
+        <option value="XSLT Stylesheet" />
         <option value="Class" />
       </list>
     </option>
@@ -140,12 +140,14 @@
         <option value="$PROJECT_DIR$/src/TextView.java" />
         <option value="$PROJECT_DIR$/src/IntervallicTicker.java" />
         <option value="$PROJECT_DIR$/src/TimeStruct.java" />
-        <option value="$PROJECT_DIR$/src/View.java" />
         <option value="$PROJECT_DIR$/src/TimeContainer.java" />
-        <option value="$PROJECT_DIR$/src/TickerController.java" />
+        <option value="$PROJECT_DIR$/src/View.java" />
+        <option value="$PROJECT_DIR$/src/ewrfe.form" />
+        <option value="$PROJECT_DIR$/src/TickerView.java" />
         <option value="$PROJECT_DIR$/src/TickerDisplay.java" />
-        <option value="$PROJECT_DIR$/src/TickerDisplay.form" />
+        <option value="$PROJECT_DIR$/src/TickerController.java" />
         <option value="$PROJECT_DIR$/src/TickerThread.java" />
+        <option value="$PROJECT_DIR$/src/TickerDisplay.form" />
       </list>
     </option>
   </component>
@@ -159,10 +161,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1397" />
-    <option name="y" value="148" />
-    <option name="width" value="1590" />
-    <option name="height" value="663" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -170,7 +171,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,18 +192,13 @@
             </path>
             <path>
               <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,15 +206,18 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="designe&#9;ACTION&#9;ActivateDesignerToolWindow" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -367,7 +366,9 @@
       <workItem from="1531290665721" duration="72000" />
       <workItem from="1531290780658" duration="111000" />
       <workItem from="1531290938242" duration="178000" />
-      <workItem from="1531291159553" duration="5516000" />
+      <workItem from="1531291159553" duration="6078000" />
+      <workItem from="1531297286701" duration="8954000" />
+      <workItem from="1531306677971" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -411,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531217711565</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Gui integration complete.&#10;&#10;Slider not able to change starting time.">
+      <created>1531296957625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531296957625</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -447,73 +455,74 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40490000" />
+    <option name="totallyTimeSpent" value="50512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-1" width="1920" height="1081" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32817337" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32747933" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26652676" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32817337" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119791664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19479166" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
     </layout>
     <layout-to-restore>
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14375" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26652893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32817337" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2390625" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32884097" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,26 +537,10 @@
     <MESSAGE value="Refactored Intervallic ticker: changed doubles to short" />
     <MESSAGE value="Trying to get view connected with model through the controller using mvc." />
     <MESSAGE value="&#10;Still working on integration with gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Still working on integration with gui" />
+    <MESSAGE value="Gui integration complete.&#10;&#10;Slider not able to change starting time." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gui integration complete.&#10;&#10;Slider not able to change starting time." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/IntervallicTickerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TickerDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -559,9 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,10 +571,6 @@
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,10 +605,6 @@
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -641,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,10 +639,6 @@
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,51 +673,6 @@
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TickerRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/IntervallicTickerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntervallicTicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -764,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,10 +707,6 @@
           <caret line="180" selection-start-line="180" selection-end-line="180" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -805,9 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,10 +741,6 @@
           <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -841,10 +751,6 @@
           <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,77 +764,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ResetBehavior.java" />
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="354.0" y="874.96875">com</node>
-            <node x="0.0" y="799.96875">netscape</node>
-            <node x="874.0" y="342.5">TickerController</node>
-            <node x="922.0" y="572.0">Driver</node>
-            <node x="664.0" y="670.0">toolbarButtonGraphics</node>
-            <node x="519.0" y="874.96875">sun</node>
-            <node x="973.0" y="670.0">groovyjarjarasm</node>
-            <node x="108.0" y="103.0">IntervallicTicker</node>
-            <node x="181.0" y="874.96875">java</node>
-            <node x="1166.0" y="799.96875">javax</node>
-            <node x="1006.4318181818182" y="0.0">Observer</node>
-            <node x="1040.0" y="126.0">TickerDisplay</node>
-            <node x="0.0" y="262.0">IntervallicTickerTests</node>
-            <node x="700.0" y="126.0">TextView</node>
-            <node x="410.0" y="799.96875">javafx</node>
-            <node x="599.0" y="799.96875">images</node>
-            <node x="0.0" y="874.96875">junit</node>
-            <node x="788.0" y="799.96875">oracle</node>
-            <node x="684.0" y="874.96875">org</node>
-            <node x="368.0" y="103.0">Subject</node>
-            <node x="205.0" y="799.96875">META-INF</node>
-            <node x="849.0" y="874.96875">jdk</node>
-            <node x="977.0" y="799.96875">groovy</node>
-            <node x="347.0" y="670.0">groovyjarjarcommonscli</node>
-            <node x="40.0" y="684.96875">groovyjarjarantlr</node>
-            <node x="60.0" y="572.0">TickerRunner</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="TextView" target="Observer">
-              <point x="0.0" y="-26.5" />
-              <point x="860.0" y="83.0" />
-              <point x="1102.4318181818182" y="83.0" />
-              <point x="-64.0" y="26.5" />
-            </edge>
-            <edge source="TickerDisplay" target="Observer">
-              <point x="0.0" y="-26.5" />
-              <point x="1200.0" y="83.0" />
-              <point x="1166.4318181818182" y="83.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="IntervallicTicker" target="Subject">
-              <point x="0.0" y="-95.0" />
-              <point x="0.0" y="56.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.36117381489841993" x="654.0" y="455.0" />
-          <SelectedNodes>
-            <node>com</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/IntervallicTickerTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="883">
@@ -939,46 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Subject.java" />
     <entry file="file://$PROJECT_DIR$/src/Observer.java" />
-    <entry file="file://$PROJECT_DIR$/src/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntervallicTicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TimeStruct.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TextView.java" />
+    <entry file="file://$PROJECT_DIR$/src/TimeStruct.java" />
     <entry file="jar:///usr/java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -986,38 +789,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TimeContainer.java">
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="506.0" y="607.7369384765625">com</node>
+            <node x="200.0" y="529.7369384765625">netscape</node>
+            <node x="290.240625" y="249.0">TickerController</node>
+            <node x="322.740625" y="332.0">Driver</node>
+            <node x="316.0" y="410.0">toolbarButtonGraphics</node>
+            <node x="157.0" y="685.7369384765625">sun</node>
+            <node x="596.0" y="410.0">groovyjarjarasm</node>
+            <node x="120.678125" y="83.0">IntervallicTicker</node>
+            <node x="0.0" y="685.7369384765625">java</node>
+            <node x="342.0" y="607.7369384765625">javax</node>
+            <node x="376.740625" y="166.0">TickerDisplay</node>
+            <node x="0.0" y="166.0">IntervallicTickerTests</node>
+            <node x="173.0" y="607.7369384765625">javafx</node>
+            <node x="391.0" y="529.7369384765625">images</node>
+            <node x="667.0" y="607.7369384765625">junit</node>
+            <node x="0.0" y="607.7369384765625">oracle</node>
+            <node x="313.0" y="685.7369384765625">org</node>
+            <node x="316.240625" y="83.0">View</node>
+            <node x="225.740625" y="166.0">TickerThread</node>
+            <node x="0.0" y="529.7369384765625">META-INF</node>
+            <node x="468.0" y="685.7369384765625">jdk</node>
+            <node x="569.0" y="529.7369384765625">groovy</node>
+            <node x="30.0" y="421.7369384765625">groovyjarjarcommonscli</node>
+            <node x="388.14479166666666" y="0.0">TimeContainer</node>
+            <node x="614.1447916666666" y="3.4869384765625">groovyjarjarantlr</node>
+            <node x="25.5" y="249.0">TickerRunner</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="TickerThread" target="IntervallicTicker">
+              <point x="-52.0" y="-16.5" />
+              <point x="238.740625" y="141.0" />
+              <point x="213.178125" y="141.0" />
+              <point x="18.5" y="16.5" />
+            </edge>
+            <edge source="TickerController" target="TimeContainer">
+              <point x="60.80000000000001" y="-16.5" />
+              <point x="427.040625" y="229.0" />
+              <point x="520.240625" y="229.0" />
+              <point x="520.240625" y="63.0" />
+              <point x="515.0447916666667" y="63.0" />
+              <point x="56.40000000000002" y="16.5" />
+            </edge>
+            <edge source="TickerThread" target="TimeContainer">
+              <point x="0.0" y="-16.5" />
+              <point x="290.740625" y="53.0" />
+              <point x="402.2447916666667" y="53.0" />
+              <point x="-56.4" y="16.5" />
+            </edge>
+            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+              <point x="-64.0" y="16.5" />
+              <point x="646.1447916666666" y="56.4869384765625" />
+              <point x="594.1447916666666" y="56.4869384765625" />
+              <point x="594.1447916666666" y="30.9869384765625" />
+              <point x="-96.0" y="11.0" />
+            </edge>
+            <edge source="TickerRunner" target="IntervallicTickerTests">
+              <point x="0.0" y="-16.5" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="TickerDisplay" target="View">
+              <point x="-44.33333333333334" y="-16.5" />
+              <point x="398.90729166666665" y="141.0" />
+              <point x="386.240625" y="141.0" />
+              <point x="30.0" y="16.5" />
+            </edge>
+            <edge source="Driver" target="TickerController">
+              <point x="-21.75" y="-16.5" />
+              <point x="344.490625" y="307.0" />
+              <point x="328.240625" y="307.0" />
+              <point x="-38.0" y="16.5" />
+            </edge>
+            <edge source="TickerController" target="TickerThread">
+              <point x="-30.400000000000034" y="-16.5" />
+              <point x="335.84062499999993" y="219.0" />
+              <point x="290.740625" y="219.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="IntervallicTickerTests" target="IntervallicTicker">
+              <point x="0.0" y="-16.5" />
+              <point x="91.5" y="141.0" />
+              <point x="139.178125" y="141.0" />
+              <point x="-55.5" y="16.5" />
+            </edge>
+            <edge source="TickerController" target="View">
+              <point x="0.0" y="-16.5" />
+              <point x="10.0" y="16.5" />
+            </edge>
+            <edge source="TickerController" target="TickerDisplay">
+              <point x="30.399999999999977" y="-16.5" />
+              <point x="396.640625" y="219.0" />
+              <point x="443.240625" y="219.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="TickerThread" target="View">
+              <point x="26.0" y="-16.5" />
+              <point x="316.740625" y="141.0" />
+              <point x="326.240625" y="141.0" />
+              <point x="-30.0" y="16.5" />
+            </edge>
+            <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+              <point x="-60.25" y="16.5" />
+              <point x="90.25" y="474.7369384765625" />
+              <point x="10.0" y="474.7369384765625" />
+              <point x="10.0" y="446.4869384765625" />
+              <point x="-120.5" y="8.25" />
+            </edge>
+            <edge source="TickerController" target="IntervallicTicker">
+              <point x="-60.80000000000001" y="-16.5" />
+              <point x="305.44062499999995" y="229.0" />
+              <point x="193.5" y="229.0" />
+              <point x="193.5" y="141.0" />
+              <point x="176.178125" y="141.0" />
+              <point x="-18.5" y="16.5" />
+            </edge>
+            <edge source="View" target="TimeContainer">
+              <point x="0.0" y="-16.5" />
+              <point x="356.240625" y="63.0" />
+              <point x="430.4447916666667" y="63.0" />
+              <point x="-28.199999999999996" y="16.5" />
+            </edge>
+            <edge source="TickerDisplay" target="TimeContainer">
+              <point x="44.33333333333334" y="-16.5" />
+              <point x="487.57395833333334" y="141.0" />
+              <point x="470.0791666666667" y="141.0" />
+              <point x="470.0791666666667" y="63.0" />
+              <point x="486.84479166666665" y="63.0" />
+              <point x="28.200000000000003" y="16.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9384164222873901" x="-186.0" y="236.0" />
+          <SelectedNodes>
+            <node>com</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.xsl" />
+    <entry file="file://$PROJECT_DIR$/src/ewrfe.java" />
+    <entry file="file://$PROJECT_DIR$/src/ewrfe.form" />
+    <entry file="file://$PROJECT_DIR$/src/TickerView.java" />
+    <entry file="jar:///usr/java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/swing/JList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="3111">
+          <caret line="1657" column="24" selection-start-line="1657" selection-start-column="24" selection-end-line="1657" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#65#66#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TickerDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="-69">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TickerDisplay.form">
-      <provider selected="true" editor-type-id="ui-designer" />
+    <entry file="file://$PROJECT_DIR$/src/TimeContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TickerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="161">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1026,10 +1009,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TickerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntervallicTicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickerDisplay.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">

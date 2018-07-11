@@ -11,7 +11,6 @@ public class TickerThread implements Runnable{
     @Override
     public void run() {
         while (true) {
-            System.out.println("awlkjdlwakjd");
             display.setTime(new TimeContainer(ticker.hours(), ticker.minutes(), ticker.seconds()));
             try {
                 sleep(1000);
