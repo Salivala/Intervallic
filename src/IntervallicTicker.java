@@ -1,7 +1,4 @@
-import java.awt.desktop.UserSessionEvent;
-import java.util.ArrayList;
 import java.util.Objects;
-import java.util.concurrent.Callable;
 
 import static java.lang.Thread.sleep;
 
@@ -9,7 +6,7 @@ import static java.lang.Thread.sleep;
  * Purpose : Provides a simple to use ticker that can be incremented or decremented by seconds
  * t
  */
-public class IntervallicTicker implements Runnable, Subject {
+public class IntervallicTicker implements Runnable {
     private static final short MAX_MINUTE_AMOUNT = 59;
     private static final short MINIMUM_MINUTE_AMOUNT = 0;
     private static final short INVALID_MINUTE_AMOUNT = -1;
@@ -19,7 +16,6 @@ public class IntervallicTicker implements Runnable, Subject {
     private final short startingHours;
     private final short startingMinutes;
     private final short startingSeconds;
-    private ArrayList<Observer> observers;
 
     /**
      * Fields for client-side readability
@@ -28,22 +24,6 @@ public class IntervallicTicker implements Runnable, Subject {
     private short minutes;
     private short seconds;
 
-    @Override
-    public void registerObserver(Observer o) {
-        observers.add(o);
-    }
-
-    @Override
-    public void removeObserver(Observer o) {
-        observers.remove(o);
-    }
-
-    @Override
-    public void notifyObservers() {
-        for (Observer o : observers) {
-            o.update(this.hours, this.minutes, this.seconds);
-        }
-    }
 
     /**
      *  Static builder class for Intervallic ticker, Initialize the containing class using inner classes
@@ -81,9 +61,6 @@ public class IntervallicTicker implements Runnable, Subject {
         hours = build.hours; //TODO: ADD CONSTRAINTS TO HOURS
         minutes = (build.minutes <= MAX_MINUTE_AMOUNT && build.minutes >= MINIMUM_MINUTE_AMOUNT) ? build.minutes : INVALID_MINUTE_AMOUNT;
         seconds = (build.seconds <= MAX_SECOND_AMOUNT && build.seconds >= MINIMUM_SECOND_AMOUNT) ? build.seconds : INVALID_SECOND_AMOUNT;
-        observers = new ArrayList<>();
-        registerObserver(new TickerDisplay());
-        registerObserver(new TextView());
         if ((minutes == INVALID_MINUTE_AMOUNT) || (seconds == INVALID_SECOND_AMOUNT))
         {throw new IllegalArgumentException("All builder calls must be positive!"); }
         else {
@@ -136,7 +113,6 @@ public class IntervallicTicker implements Runnable, Subject {
         else {
             this.seconds--;
         }
-        this.notifyObservers();
         return this;
     }
 
@@ -188,7 +164,7 @@ public class IntervallicTicker implements Runnable, Subject {
     }
 
     @Override
-    public void run() {
+    public void run() { // TODO: MOVE THIS TO CONTROLLER
         try {
             while(true) { //TODO: Consider a more elegant way to handle a repeating interval
                 sleep(1000);

@@ -1,13 +1,30 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 /**
  * Controller for the application
  */
-public class TickerController {
-    IntervallicTicker ticker = new IntervallicTicker.Builder().seconds((short) 34).build();
-    ArrayList<Observer> displays = new ArrayList<>();
-    Thread tickerThread = new Thread(ticker);
+class TickerController {
+    private IntervallicTicker ticker;
+    private View tickerDisplay;
+    private ActionListener runListener;
+    private Thread tickerThread;
     TickerController() {
-        tickerThread.start();
+        runListener = new ActionListener(){
+            public void actionPerformed(ActionEvent e) {
+                TimeContainer time = tickerDisplay.getTime();
+                ticker = new IntervallicTicker.Builder()
+                        .hours(time.hours)
+                        .minutes(time.minutes)
+                        .seconds(time.seconds)
+                        .build();
+
+                tickerThread = new Thread(new TickerThread(tickerDisplay, ticker));
+                tickerThread.start();
+            }
+        };
+
+        tickerDisplay = new TickerDisplay(runListener);
     }
 }
