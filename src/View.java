@@ -1,6 +1,4 @@
-import javax.swing.*;
-
 public interface View {
-    void setTime(TimeContainer n);
-    TimeContainer getTime();
+    void displayTime(int hours, int minutes, int seconds);
+    void updateElement(int rawTime);
 }

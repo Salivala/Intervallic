@@ -1,73 +1,39 @@
 import java.util.Objects;
 
-import static java.lang.Thread.sleep;
-
 /**
  * Purpose : Provides a simple to use ticker that can be incremented or decremented by seconds
- * t
  */
-public class IntervallicTicker implements Runnable {
+public class IntervallicTicker {
     private static final short MAX_MINUTE_AMOUNT = 59;
     private static final short MINIMUM_MINUTE_AMOUNT = 0;
     private static final short INVALID_MINUTE_AMOUNT = -1;
     private static final short MAX_SECOND_AMOUNT = 59;
     private static final short MINIMUM_SECOND_AMOUNT = 0;
     private static final short INVALID_SECOND_AMOUNT = -1;
-    private final short startingHours;
-    private final short startingMinutes;
-    private final short startingSeconds;
+    private IntervalAction intervalBehavior;
 
     /**
      * Fields for client-side readability
      */
-    private short hours;
-    private short minutes;
-    private short seconds;
+    short hours;
+    short minutes;
+    short seconds;
+    public short startingHours;
+    public short startingMinutes;
+    public short startingSeconds;
 
 
-    /**
-     *  Static builder class for Intervallic ticker, Initialize the containing class using inner classes
-     *  constructor, then chain option methods together, ending with .build to get an Intervallic ticker.
-     **/
-    static class Builder {
-        private short hours = 0;
-        private short minutes = 0;
-        private short seconds = 0;
-
-        Builder () {
-        }
-
-        Builder hours(short hour) {
-            hours = hour;
-            return this;
-        }
-
-        Builder minutes(short minute) {
-            minutes = minute;
-            return this;
-        }
-
-        Builder seconds(short second) {
-            seconds = second;
-            return this;
-        }
-
-        IntervallicTicker build() {
-            return new IntervallicTicker(this);
-        }
+    IntervallicTicker(IntervalAction action) {
+        this (0,0,0, action);
     }
-
-    private IntervallicTicker(Builder build) { // TODO:
-        hours = build.hours; //TODO: ADD CONSTRAINTS TO HOURS
-        minutes = (build.minutes <= MAX_MINUTE_AMOUNT && build.minutes >= MINIMUM_MINUTE_AMOUNT) ? build.minutes : INVALID_MINUTE_AMOUNT;
-        seconds = (build.seconds <= MAX_SECOND_AMOUNT && build.seconds >= MINIMUM_SECOND_AMOUNT) ? build.seconds : INVALID_SECOND_AMOUNT;
-        if ((minutes == INVALID_MINUTE_AMOUNT) || (seconds == INVALID_SECOND_AMOUNT))
-        {throw new IllegalArgumentException("All builder calls must be positive!"); }
-        else {
-            startingHours = hours;
-            startingMinutes = minutes;
-            startingSeconds = seconds;
-        }
+    IntervallicTicker(int hours, int minutes, int seconds, IntervalAction action) {
+        this.intervalBehavior = action;
+        this.hours = (short) hours;
+        this.minutes = (short) minutes;
+        this.seconds = (short) seconds;
+        this.startingHours = (short) hours;
+        this.startingMinutes = (short) minutes;
+        this.startingSeconds = (short) seconds;
     }
 
     /**
@@ -98,7 +64,7 @@ public class IntervallicTicker implements Runnable {
                     this.hours = startingHours;
                     this.minutes = startingMinutes;
                     this.seconds = startingSeconds;
-                    java.awt.Toolkit.getDefaultToolkit().beep();
+                    this.intervalBehavior.activate();
                 }
                 else {
                     this.hours--;
@@ -144,7 +110,33 @@ public class IntervallicTicker implements Runnable {
         return seconds;
     }
 
+    void prepareTicker(int hours, int minutes, int seconds) {
+        this.startingHours = (short )hours;
+        this.hours = (short) hours;
+        this.startingMinutes = (short) minutes;
+        this.minutes = (short) minutes;
+        this.startingSeconds = (short) seconds;
+        this.seconds = (short) seconds;
+    }
 
+    IntervallicTicker convertIntToTime(int rawSeconds) {
+        /*
+        for (int i = 0; i < rawSeconds; i++) {
+            this.increment();
+        }
+        */ // this block works but is not efficient
+        double tmpHours = Math.floor((rawSeconds / 60) / 60);
+        double tmpMinutes = Math.floor((rawSeconds / 60) % 60);
+        double tmpSeconds = (rawSeconds % 60) % 60;
+        hours = (short) tmpHours;
+        minutes = (short) tmpMinutes;
+        seconds = (short) tmpSeconds;
+        return this;
+    }
+
+    public int TimeToInt() {
+        return ((hours * 60) * 60) + (minutes * 60) + seconds;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -162,18 +154,5 @@ public class IntervallicTicker implements Runnable {
     @Override
     public int hashCode() {
         return Objects.hash(seconds, minutes, hours);
-    }
-
-    @Override
-    public void run() { // TODO: MOVE THIS TO CONTROLLER
-        try {
-            while(true) { //TODO: Consider a more elegant way to handle a repeating interval
-                sleep(1000);
-                decrement();
-            }
-        }
-        catch(InterruptedException ex)
-        {
-        }
     }
 }
