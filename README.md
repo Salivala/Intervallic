@@ -1,4 +1,4 @@
 # Intervallic
 *A simple cross-platform repeating timer*
 
->> Under development
+![UML diagram](diagrams/v1/v1diagram.png)
