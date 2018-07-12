@@ -15,6 +15,8 @@ public class TickerDisplay implements View {
     TickerDisplay(IntervallicTicker ticker, TickerController controller) {
         this.controller = controller;
         this.ticker = ticker;
+        slider1.setValue(60);
+        displayTime(0,1,0);
         slider1.setMinimum(0);
         slider1.setMaximum(3600);
         JFrame frame = new JFrame("TickerDisplay");
