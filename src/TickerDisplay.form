@@ -30,7 +30,7 @@
         <properties>
           <horizontalAlignment value="0"/>
           <horizontalTextPosition value="0"/>
-          <text value="08:59:59"/>
+          <text value="00:00:00"/>
         </properties>
       </component>
       <component id="27f09" class="javax.swing.JButton" binding="startIntervallicButton" default-binding="true">

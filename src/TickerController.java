@@ -1,6 +1,8 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Controller for the application
@@ -24,4 +26,5 @@ class TickerController {
 
         tickerDisplay = new TickerDisplay(runListener);
     }
+
 }
