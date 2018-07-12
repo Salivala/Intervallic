@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DefaultIntervalBeep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoNothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntervalAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntervallicTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntervallicTicker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerDisplay.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerDisplay.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickerDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/IntervallicTickerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/IntervallicTickerTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -269,7 +252,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Runnables" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -289,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="JAR Application.Intervallic.jar">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="Intervallic" />
@@ -325,23 +308,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="IntervallicTickerTests.equalsTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Intervallic" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IntervallicTickerTests" />
-      <option name="METHOD_NAME" value="equalsTest4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -357,6 +323,9 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="Intervallic.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/Runnables/Intervallic.jar" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -382,18 +351,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TickerRunner" />
-      <item itemvalue="JUnit.IntervallicTickerTests.equalsTest4" />
       <item itemvalue="Application.Driver" />
       <item itemvalue="Application.TickerDisplay" />
       <item itemvalue="JUnit.IntervallicTickerTests" />
+      <item itemvalue="JAR Application.Intervallic.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.Intervallic.jar" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.TickerRunner" />
         <item itemvalue="JUnit.IntervallicTickerTests" />
         <item itemvalue="Application.TickerDisplay" />
-        <item itemvalue="JUnit.IntervallicTickerTests.equalsTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +402,7 @@
       <workItem from="1531336440634" duration="85000" />
       <workItem from="1531337926818" duration="661000" />
       <workItem from="1531383360253" duration="2003000" />
-      <workItem from="1531386781340" duration="13043000" />
+      <workItem from="1531386781340" duration="13351000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -505,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531385002359</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Reached Version 1 of intervallic">
+      <created>1531400807867</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1531400807868</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,7 +517,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69732000" />
+    <option name="totallyTimeSpent" value="70040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-10" width="1920" height="1090" extended-state="6" />
@@ -625,7 +601,8 @@
     <MESSAGE value="Gui integration complete.&#10;&#10;Slider not able to change starting time." />
     <MESSAGE value="Added system beep on clock reset." />
     <MESSAGE value="Started new branch to reword intervallic on" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started new branch to reword intervallic on" />
+    <MESSAGE value="Reached Version 1 of intervallic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reached Version 1 of intervallic" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Driver.java">
