@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/runnables/v2/Intervallic.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Intervallic_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Intervallic_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,16 +49,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="-562">
               <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2993#2994#0" expanded="true" />
                 <element signature="e#3063#3064#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="253">
+                <caret line="11" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="40.0" y="217.71875">main</node>
+                <node x="4.74404761904762" y="134.71875">view</node>
+                <node x="142.74404761904762" y="134.71875">Example</node>
+                <node x="93.32738095238093" y="11.71875">interval</node>
+                <node x="74.25" y="300.71875">MathUtilsTest</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="main" target="main">
+                  <point x="14.75" y="16.5" />
+                  <point x="113.75" y="290.71875" />
+                  <point x="0.0" y="290.71875" />
+                  <point x="0.0" y="223.21875" />
+                  <point x="-59.0" y="-11.0" />
+                </edge>
+                <edge source="main" target="interval">
+                  <point x="49.166666666666686" y="-16.5" />
+                  <point x="148.16666666666669" y="197.71875" />
+                  <point x="266.2440476190476" y="197.71875" />
+                  <point x="266.2440476190476" y="94.71875" />
+                  <point x="219.88988095238093" y="94.71875" />
+                  <point x="59.0625" y="16.5" />
+                </edge>
+                <edge source="view" target="main">
+                  <point x="14.75" y="16.5" />
+                  <point x="78.49404761904762" y="197.71875" />
+                  <point x="89.16666666666667" y="197.71875" />
+                  <point x="-9.833333333333329" y="-16.5" />
+                </edge>
+                <edge source="main" target="view">
+                  <point x="-49.16666666666667" y="-16.5" />
+                  <point x="49.83333333333333" y="197.71875" />
+                  <point x="19.49404761904762" y="197.71875" />
+                  <point x="-44.25" y="16.5" />
+                </edge>
+                <edge source="Example" target="interval">
+                  <point x="-25.5" y="-16.5" />
+                  <point x="168.24404761904762" y="114.71875" />
+                  <point x="169.26488095238093" y="114.71875" />
+                  <point x="8.4375" y="16.5" />
+                </edge>
+                <edge source="interval" target="interval">
+                  <point x="-42.1875" y="16.5" />
+                  <point x="118.63988095238093" y="74.71875" />
+                  <point x="63.327380952380935" y="74.71875" />
+                  <point x="63.327380952380935" y="19.96875" />
+                  <point x="-67.5" y="-8.25" />
+                </edge>
+                <edge source="MathUtilsTest" target="main">
+                  <point x="0.0" y="-16.5" />
+                  <point x="44.25" y="16.5" />
+                </edge>
+                <edge source="view" target="interval">
+                  <point x="-29.5" y="-16.5" />
+                  <point x="34.24404761904762" y="104.71875" />
+                  <point x="135.51488095238093" y="104.71875" />
+                  <point x="-25.3125" y="16.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.3512520868113527" x="202.27131208302433" y="146.51223128243137" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -165,7 +254,6 @@
         <option value="$PROJECT_DIR$/src/DefaultIntervalBeep.java" />
         <option value="$PROJECT_DIR$/tests/IntervallicTickerTests.java" />
         <option value="$PROJECT_DIR$/src/DoNothing.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/IntervallicTicker.java" />
         <option value="$PROJECT_DIR$/src/TickerController.java" />
         <option value="$PROJECT_DIR$/src/TickerDisplay.java" />
@@ -196,6 +284,7 @@
         <option value="$PROJECT_DIR$/src/main/IntervalManager.java" />
         <option value="$PROJECT_DIR$/src/interval/Interval.java" />
         <option value="$PROJECT_DIR$/src/view/View.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -242,35 +331,37 @@
             <path>
               <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Interval" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Intervallic_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
               <item name="runnables" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interval" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
@@ -295,10 +386,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/diagrams/v2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
@@ -311,6 +402,7 @@
       <recent name="view" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/runnables/v2" />
       <recent name="$PROJECT_DIR$/runnables/v1" />
       <recent name="$PROJECT_DIR$/Runnables" />
     </key>
@@ -451,7 +543,7 @@
       <workItem from="1531386781340" duration="14431000" />
       <workItem from="1531721403026" duration="4499000" />
       <workItem from="1531728363283" duration="2988000" />
-      <workItem from="1531736098538" duration="13799000" />
+      <workItem from="1531736098538" duration="14924000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -551,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531753344394</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed refactor mistake">
+      <created>1531753686326</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531753686326</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -587,7 +686,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125206000" />
+    <option name="totallyTimeSpent" value="126331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-10" width="1600" height="910" extended-state="6" />
@@ -605,15 +704,15 @@
       <window_info id="UI Designer" order="13" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3984476" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info active="true" anchor="bottom" id="Messages" order="18" visible="true" weight="0.3260026" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.3260026" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="13" />
       <window_info anchor="bottom" id="Version Control" order="17" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32729626" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32729626" />
       <window_info anchor="right" id="Coverage" order="15" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.32947233" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.28" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.28" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843652" />
       <window_info id="Learn" order="9" />
       <window_info anchor="right" id="Theme Preview" order="11" />
@@ -675,7 +774,8 @@
     <MESSAGE value="Reached Version 1 of intervallic" />
     <MESSAGE value="Added runnable." />
     <MESSAGE value="Massive overhaul of intervallic.&#10;&#10;History is written by those who push --force" />
-    <option name="LAST_COMMIT_MESSAGE" value="Massive overhaul of intervallic.&#10;&#10;History is written by those who push --force" />
+    <MESSAGE value="Fixed refactor mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed refactor mistake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,146 +828,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TickerDisplay.form" />
     <entry file="file://$PROJECT_DIR$/src/DefaultIntervalBeep.java" />
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="253.53921568627453" y="186.0">TickerController</node>
-            <node x="181.08333333333337" y="299.0">Driver</node>
-            <node x="580.234068627451" y="83.0">DoNothing</node>
-            <node x="347.53921568627453" y="83.0">IntervallicTicker</node>
-            <node x="458.609068627451" y="186.0">IntervallicTickerTests</node>
-            <node x="350.4675245098039" y="299.0">TickerDisplay</node>
-            <node x="197.0" y="83.0">View</node>
-            <node x="353.03921568627453" y="0.0">IntervalAction</node>
-            <node x="0.0" y="83.0">DefaultIntervalBeep</node>
-            <node x="511.8296568627451" y="299.0">TickerRunner</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="TickerDisplay" target="IntervallicTicker">
-              <point x="41.5625" y="-16.5" />
-              <point x="458.5300245098039" y="279.0" />
-              <point x="448.109068627451" y="279.0" />
-              <point x="448.109068627451" y="166.0" />
-              <point x="449.28921568627453" y="166.0" />
-              <point x="27.75" y="16.5" />
-            </edge>
-            <edge source="DefaultIntervalBeep" target="IntervalAction">
-              <point x="0.0" y="-16.5" />
-              <point x="88.5" y="58.0" />
-              <point x="370.16421568627453" y="58.0" />
-              <point x="-51.375" y="16.5" />
-            </edge>
-            <edge source="TickerDisplay" target="DoNothing">
-              <point x="58.1875" y="-16.5" />
-              <point x="475.1550245098039" y="279.0" />
-              <point x="660.734068627451" y="279.0" />
-              <point x="660.734068627451" y="166.0" />
-              <point x="670.234068627451" y="166.0" />
-              <point x="30.0" y="16.5" />
-            </edge>
-            <edge source="TickerRunner" target="IntervallicTickerTests">
-              <point x="0.0" y="-16.5" />
-              <point x="577.8296568627451" y="269.0" />
-              <point x="550.109068627451" y="269.0" />
-              <point x="0.0" y="16.5" />
-            </edge>
-            <edge source="Driver" target="IntervallicTicker">
-              <point x="0.0" y="-16.5" />
-              <point x="224.58333333333337" y="279.0" />
-              <point x="243.03921568627453" y="279.0" />
-              <point x="243.03921568627453" y="146.0" />
-              <point x="356.78921568627453" y="146.0" />
-              <point x="-64.75" y="16.5" />
-            </edge>
-            <edge source="TickerDisplay" target="View">
-              <point x="-58.1875" y="-16.5" />
-              <point x="358.7800245098039" y="269.0" />
-              <point x="213.58333333333337" y="269.0" />
-              <point x="213.58333333333337" y="166.0" />
-              <point x="217.0" y="166.0" />
-              <point x="-20.0" y="16.5" />
-            </edge>
-            <edge source="IntervallicTickerTests" target="DoNothing">
-              <point x="61.0" y="-16.5" />
-              <point x="-30.0" y="16.5" />
-            </edge>
-            <edge source="Driver" target="TickerController">
-              <point x="29.0" y="-16.5" />
-              <point x="253.58333333333337" y="279.0" />
-              <point x="272.53921568627453" y="279.0" />
-              <point x="-57.0" y="16.5" />
-            </edge>
-            <edge source="IntervallicTicker" target="IntervalAction">
-              <point x="-37.0" y="-16.5" />
-              <point x="384.53921568627453" y="58.0" />
-              <point x="404.41421568627453" y="58.0" />
-              <point x="-17.125" y="16.5" />
-            </edge>
-            <edge source="IntervallicTickerTests" target="IntervallicTicker">
-              <point x="-61.0" y="-16.5" />
-              <point x="489.109068627451" y="166.0" />
-              <point x="467.78921568627453" y="166.0" />
-              <point x="46.25" y="16.5" />
-            </edge>
-            <edge source="TickerController" target="View">
-              <point x="-50.666666666666686" y="-16.5" />
-              <point x="278.87254901960785" y="136.0" />
-              <point x="257.0" y="136.0" />
-              <point x="20.0" y="16.5" />
-            </edge>
-            <edge source="TickerDisplay" target="TickerController">
-              <point x="-24.9375" y="-16.5" />
-              <point x="392.0300245098039" y="249.0" />
-              <point x="348.53921568627453" y="249.0" />
-              <point x="19.0" y="16.5" />
-            </edge>
-            <edge source="TickerController" target="TickerDisplay">
-              <point x="57.0" y="16.5" />
-              <point x="386.53921568627453" y="239.0" />
-              <point x="408.6550245098039" y="239.0" />
-              <point x="-8.3125" y="-16.5" />
-            </edge>
-            <edge source="Driver" target="DefaultIntervalBeep">
-              <point x="-29.0" y="-16.5" />
-              <point x="195.58333333333337" y="279.0" />
-              <point x="88.5" y="279.0" />
-              <point x="0.0" y="16.5" />
-            </edge>
-            <edge source="TickerController" target="IntervallicTicker">
-              <point x="-2.8421709430404007E-14" y="-16.5" />
-              <point x="329.5392156862745" y="156.0" />
-              <point x="375.28921568627453" y="156.0" />
-              <point x="-46.25" y="16.5" />
-            </edge>
-            <edge source="DoNothing" target="IntervalAction">
-              <point x="0.0" y="-16.5" />
-              <point x="640.234068627451" y="58.0" />
-              <point x="472.91421568627453" y="58.0" />
-              <point x="51.375" y="16.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6488156539649845" x="397.0" y="476.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="230">
-            <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TickerDisplay.java" />
     <entry file="file://$PROJECT_DIR$/tests/IntervallicTickerTests.java" />
     <entry file="file://$PROJECT_DIR$/src/DoNothing.java" />
@@ -1016,13 +976,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="-562">
           <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2993#2994#0" expanded="true" />
             <element signature="e#3063#3064#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="253">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="40.0" y="217.71875">main</node>
+            <node x="4.74404761904762" y="134.71875">view</node>
+            <node x="142.74404761904762" y="134.71875">Example</node>
+            <node x="93.32738095238093" y="11.71875">interval</node>
+            <node x="74.25" y="300.71875">MathUtilsTest</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="main" target="main">
+              <point x="14.75" y="16.5" />
+              <point x="113.75" y="290.71875" />
+              <point x="0.0" y="290.71875" />
+              <point x="0.0" y="223.21875" />
+              <point x="-59.0" y="-11.0" />
+            </edge>
+            <edge source="main" target="interval">
+              <point x="49.166666666666686" y="-16.5" />
+              <point x="148.16666666666669" y="197.71875" />
+              <point x="266.2440476190476" y="197.71875" />
+              <point x="266.2440476190476" y="94.71875" />
+              <point x="219.88988095238093" y="94.71875" />
+              <point x="59.0625" y="16.5" />
+            </edge>
+            <edge source="view" target="main">
+              <point x="14.75" y="16.5" />
+              <point x="78.49404761904762" y="197.71875" />
+              <point x="89.16666666666667" y="197.71875" />
+              <point x="-9.833333333333329" y="-16.5" />
+            </edge>
+            <edge source="main" target="view">
+              <point x="-49.16666666666667" y="-16.5" />
+              <point x="49.83333333333333" y="197.71875" />
+              <point x="19.49404761904762" y="197.71875" />
+              <point x="-44.25" y="16.5" />
+            </edge>
+            <edge source="Example" target="interval">
+              <point x="-25.5" y="-16.5" />
+              <point x="168.24404761904762" y="114.71875" />
+              <point x="169.26488095238093" y="114.71875" />
+              <point x="8.4375" y="16.5" />
+            </edge>
+            <edge source="interval" target="interval">
+              <point x="-42.1875" y="16.5" />
+              <point x="118.63988095238093" y="74.71875" />
+              <point x="63.327380952380935" y="74.71875" />
+              <point x="63.327380952380935" y="19.96875" />
+              <point x="-67.5" y="-8.25" />
+            </edge>
+            <edge source="MathUtilsTest" target="main">
+              <point x="0.0" y="-16.5" />
+              <point x="44.25" y="16.5" />
+            </edge>
+            <edge source="view" target="interval">
+              <point x="-29.5" y="-16.5" />
+              <point x="34.24404761904762" y="104.71875" />
+              <point x="135.51488095238093" y="104.71875" />
+              <point x="-25.3125" y="16.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.3512520868113527" x="202.27131208302433" y="146.51223128243137" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
