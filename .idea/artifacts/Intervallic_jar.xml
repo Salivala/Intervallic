@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Intervallic:jar">
+  <artifact type="jar" name="Intervallic:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Intervallic_jar</output-path>
     <root id="archive" name="Intervallic.jar">
       <element id="module-output" name="Intervallic" />
