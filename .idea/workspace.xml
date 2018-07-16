@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Interval" />
+      <artifact name="Intervallic:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/runnables/v2/Intervallic.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Intervallic_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Intervallic_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/v2/v2diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -24,28 +23,6 @@
     <SUITE FILE_PATH="coverage/Intervallic$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1531737372874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Intervallic$MathUtilsTest.ic" NAME="MathUtilsTest Coverage Results" MODIFIED="1531737775487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Intervallic$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1531673335248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Driver.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="207">
-                    <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -63,19 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="253">
-                <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="184">
+                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -83,10 +60,10 @@
               <OriginalElement />
               <nodes>
                 <node x="40.0" y="217.71875">main</node>
-                <node x="4.74404761904762" y="134.71875">view</node>
-                <node x="142.74404761904762" y="134.71875">Example</node>
-                <node x="93.32738095238093" y="11.71875">interval</node>
-                <node x="74.25" y="300.71875">MathUtilsTest</node>
+                <node x="4.744047619047649" y="134.71875">view</node>
+                <node x="142.74404761904765" y="134.71875">Example</node>
+                <node x="93.32738095238096" y="11.71875">interval</node>
+                <node x="74.25000000000001" y="300.71875">MathUtilsTest</node>
               </nodes>
               <notes />
               <edges>
@@ -100,34 +77,34 @@
                 <edge source="main" target="interval">
                   <point x="49.166666666666686" y="-16.5" />
                   <point x="148.16666666666669" y="197.71875" />
-                  <point x="266.2440476190476" y="197.71875" />
-                  <point x="266.2440476190476" y="94.71875" />
-                  <point x="219.88988095238093" y="94.71875" />
+                  <point x="266.24404761904765" y="197.71875" />
+                  <point x="266.24404761904765" y="94.71875" />
+                  <point x="219.88988095238096" y="94.71875" />
                   <point x="59.0625" y="16.5" />
                 </edge>
                 <edge source="view" target="main">
                   <point x="14.75" y="16.5" />
-                  <point x="78.49404761904762" y="197.71875" />
+                  <point x="78.49404761904765" y="197.71875" />
                   <point x="89.16666666666667" y="197.71875" />
                   <point x="-9.833333333333329" y="-16.5" />
                 </edge>
                 <edge source="main" target="view">
                   <point x="-49.16666666666667" y="-16.5" />
                   <point x="49.83333333333333" y="197.71875" />
-                  <point x="19.49404761904762" y="197.71875" />
+                  <point x="19.49404761904765" y="197.71875" />
                   <point x="-44.25" y="16.5" />
                 </edge>
                 <edge source="Example" target="interval">
                   <point x="-25.5" y="-16.5" />
-                  <point x="168.24404761904762" y="114.71875" />
-                  <point x="169.26488095238093" y="114.71875" />
+                  <point x="168.24404761904765" y="114.71875" />
+                  <point x="169.26488095238096" y="114.71875" />
                   <point x="8.4375" y="16.5" />
                 </edge>
                 <edge source="interval" target="interval">
                   <point x="-42.1875" y="16.5" />
-                  <point x="118.63988095238093" y="74.71875" />
-                  <point x="63.327380952380935" y="74.71875" />
-                  <point x="63.327380952380935" y="19.96875" />
+                  <point x="118.63988095238096" y="74.71875" />
+                  <point x="63.32738095238096" y="74.71875" />
+                  <point x="63.32738095238096" y="19.96875" />
                   <point x="-67.5" y="-8.25" />
                 </edge>
                 <edge source="MathUtilsTest" target="main">
@@ -136,12 +113,12 @@
                 </edge>
                 <edge source="view" target="interval">
                   <point x="-29.5" y="-16.5" />
-                  <point x="34.24404761904762" y="104.71875" />
-                  <point x="135.51488095238093" y="104.71875" />
+                  <point x="34.24404761904765" y="104.71875" />
+                  <point x="135.51488095238096" y="104.71875" />
                   <point x="-25.3125" y="16.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.3512520868113527" x="202.27131208302433" y="146.51223128243137" />
+              <settings layout="Hierarchic Group" zoom="1.3512520868113527" x="-46.386953298739854" y="157.61304670126015" />
               <SelectedNodes />
               <Categories />
               <SCOPE>All</SCOPE>
@@ -327,6 +304,12 @@
               <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
               <item name="diagrams" type="462c0819:PsiDirectoryNode" />
               <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
+              <item name="diagrams" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
@@ -543,7 +526,7 @@
       <workItem from="1531386781340" duration="14431000" />
       <workItem from="1531721403026" duration="4499000" />
       <workItem from="1531728363283" duration="2988000" />
-      <workItem from="1531736098538" duration="14924000" />
+      <workItem from="1531736098538" duration="15195000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -650,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531753686326</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Version 2 releae">
+      <created>1531754730058</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531754730058</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -686,7 +676,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126331000" />
+    <option name="totallyTimeSpent" value="126602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-10" width="1600" height="910" extended-state="6" />
@@ -775,7 +765,8 @@
     <MESSAGE value="Added runnable." />
     <MESSAGE value="Massive overhaul of intervallic.&#10;&#10;History is written by those who push --force" />
     <MESSAGE value="Fixed refactor mistake" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed refactor mistake" />
+    <MESSAGE value="Version 2 releae" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2 releae" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,16 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interval/ResetListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -986,16 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="253">
-            <caret line="11" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1003,10 +974,10 @@
           <OriginalElement />
           <nodes>
             <node x="40.0" y="217.71875">main</node>
-            <node x="4.74404761904762" y="134.71875">view</node>
-            <node x="142.74404761904762" y="134.71875">Example</node>
-            <node x="93.32738095238093" y="11.71875">interval</node>
-            <node x="74.25" y="300.71875">MathUtilsTest</node>
+            <node x="4.744047619047649" y="134.71875">view</node>
+            <node x="142.74404761904765" y="134.71875">Example</node>
+            <node x="93.32738095238096" y="11.71875">interval</node>
+            <node x="74.25000000000001" y="300.71875">MathUtilsTest</node>
           </nodes>
           <notes />
           <edges>
@@ -1020,34 +991,34 @@
             <edge source="main" target="interval">
               <point x="49.166666666666686" y="-16.5" />
               <point x="148.16666666666669" y="197.71875" />
-              <point x="266.2440476190476" y="197.71875" />
-              <point x="266.2440476190476" y="94.71875" />
-              <point x="219.88988095238093" y="94.71875" />
+              <point x="266.24404761904765" y="197.71875" />
+              <point x="266.24404761904765" y="94.71875" />
+              <point x="219.88988095238096" y="94.71875" />
               <point x="59.0625" y="16.5" />
             </edge>
             <edge source="view" target="main">
               <point x="14.75" y="16.5" />
-              <point x="78.49404761904762" y="197.71875" />
+              <point x="78.49404761904765" y="197.71875" />
               <point x="89.16666666666667" y="197.71875" />
               <point x="-9.833333333333329" y="-16.5" />
             </edge>
             <edge source="main" target="view">
               <point x="-49.16666666666667" y="-16.5" />
               <point x="49.83333333333333" y="197.71875" />
-              <point x="19.49404761904762" y="197.71875" />
+              <point x="19.49404761904765" y="197.71875" />
               <point x="-44.25" y="16.5" />
             </edge>
             <edge source="Example" target="interval">
               <point x="-25.5" y="-16.5" />
-              <point x="168.24404761904762" y="114.71875" />
-              <point x="169.26488095238093" y="114.71875" />
+              <point x="168.24404761904765" y="114.71875" />
+              <point x="169.26488095238096" y="114.71875" />
               <point x="8.4375" y="16.5" />
             </edge>
             <edge source="interval" target="interval">
               <point x="-42.1875" y="16.5" />
-              <point x="118.63988095238093" y="74.71875" />
-              <point x="63.327380952380935" y="74.71875" />
-              <point x="63.327380952380935" y="19.96875" />
+              <point x="118.63988095238096" y="74.71875" />
+              <point x="63.32738095238096" y="74.71875" />
+              <point x="63.32738095238096" y="19.96875" />
               <point x="-67.5" y="-8.25" />
             </edge>
             <edge source="MathUtilsTest" target="main">
@@ -1056,16 +1027,36 @@
             </edge>
             <edge source="view" target="interval">
               <point x="-29.5" y="-16.5" />
-              <point x="34.24404761904762" y="104.71875" />
-              <point x="135.51488095238093" y="104.71875" />
+              <point x="34.24404761904765" y="104.71875" />
+              <point x="135.51488095238096" y="104.71875" />
               <point x="-25.3125" y="16.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.3512520868113527" x="202.27131208302433" y="146.51223128243137" />
+          <settings layout="Hierarchic Group" zoom="1.3512520868113527" x="-46.386953298739854" y="157.61304670126015" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -19,6 +19,11 @@ A simple cross-platform repeating interval
 * Dividing classes into seperate packages
     * Interval has been encapsulated into its own package, and is available in my Interval repo now.
 
+![UML diagram](diagrams/v2/v2diagram.png)
+---
+
+
+
 ## Version 1 Features
 1. Slider to set and monitor intervals
 2. Intervals repeat at a regular pace
