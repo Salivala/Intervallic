@@ -76,12 +76,10 @@ public class View {
              String timeItem = getProgress(time.getStartingDuration(), time.getStartingDuration());
              time.index = k;
             ((DefaultListModel) times.getModel()).add(k++, timeItem);
-            time.refItem = timeItem;
             time.addTickListener(() -> {
-                time.refItem = ((DefaultListModel<String>) times.getModel()).get(time.index);
                 ((DefaultListModel<String>) times.getModel()).set(time.index,
                         getProgress(time.getDuration(), time.getStartingDuration()));
-                System.out.println(time.refItem);
+                System.out.println(time.index);
             });
             controller.addInterval(time);
             frame.setLocation(frame.getX(), frame.getY() - 17); // set ylocation to the item add offset

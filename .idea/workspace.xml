@@ -7,41 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Interval/Interval.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interval/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interval/ResetListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interval/TickListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/IntervalManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/MathUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interval/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interval/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interval/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Interval/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interval/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interval/src/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interval/src/Interval/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interval/src/interval/Interval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interval/src/Interval/ResetListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interval/src/interval/ResetListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interval/src/Interval/TickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interval/src/interval/TickListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intervallic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Intervallic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/IntervallicTicker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefaultIntervalBeep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoNothing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntervalAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntervallicTicker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerDisplay.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TickerDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/IntervallicTickerTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TickerRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1173">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="290">
+              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2993#2994#0" expanded="true" />
@@ -128,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interval.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Interval.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -227,8 +194,8 @@
         <option value="$PROJECT_DIR$/src/interval/TickListener.java" />
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/IntervalManager.java" />
-        <option value="$PROJECT_DIR$/src/view/View.java" />
         <option value="$PROJECT_DIR$/src/interval/Interval.java" />
+        <option value="$PROJECT_DIR$/src/view/View.java" />
       </list>
     </option>
   </component>
@@ -484,7 +451,7 @@
       <workItem from="1531386781340" duration="14431000" />
       <workItem from="1531721403026" duration="4499000" />
       <workItem from="1531728363283" duration="2988000" />
-      <workItem from="1531736098538" duration="13539000" />
+      <workItem from="1531736098538" duration="13799000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -577,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531403233292</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Massive overhaul of intervallic.&#10;&#10;History is written by those who push --force">
+      <created>1531753344394</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531753344394</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -613,7 +587,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124946000" />
+    <option name="totallyTimeSpent" value="125206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-10" width="1600" height="910" extended-state="6" />
@@ -631,12 +605,12 @@
       <window_info id="UI Designer" order="13" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3984476" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="18" weight="0.32633787" />
+      <window_info active="true" anchor="bottom" id="Messages" order="18" visible="true" weight="0.3260026" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="13" />
       <window_info anchor="bottom" id="Version Control" order="17" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32729626" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32729626" />
       <window_info anchor="right" id="Coverage" order="15" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.32947233" />
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.28" />
@@ -700,7 +674,8 @@
     <MESSAGE value="Started new branch to reword intervallic on" />
     <MESSAGE value="Reached Version 1 of intervallic" />
     <MESSAGE value="Added runnable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added runnable." />
+    <MESSAGE value="Massive overhaul of intervallic.&#10;&#10;History is written by those who push --force" />
+    <option name="LAST_COMMIT_MESSAGE" value="Massive overhaul of intervallic.&#10;&#10;History is written by those who push --force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1032,22 +1007,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="290">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2993#2994#0" expanded="true" />
             <element signature="e#3063#3064#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
