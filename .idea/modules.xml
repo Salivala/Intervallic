@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Interval/Interval.iml" filepath="$PROJECT_DIR$/Interval/Interval.iml" />
       <module fileurl="file://$PROJECT_DIR$/Intervallic.iml" filepath="$PROJECT_DIR$/Intervallic.iml" />
     </modules>
   </component>
