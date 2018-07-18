@@ -66,7 +66,7 @@ public class View {
         setPanel.setLayout(new FlowLayout());
     }
 
-    public synchronized void addAddActionListener() {
+    public void addAddActionListener() {
         add.addActionListener(e -> {
             Interval time = new Interval(
                     Duration.ofHours(Integer.parseInt((String) hours.getSelectedItem()))
@@ -104,7 +104,7 @@ public class View {
         for (int i = 0; i < totalPossibleBars - barsToRemove; i++) {
             progress = progress.substring(0, progress.length() - 1);
         }
-        return formatTime(current.toHoursPart()) + ":" +
+        return formatTime((int) current.toHours()) + ":" +
                 formatTime(current.toMinutesPart()) + ":" +
                 formatTime(current.toSecondsPart()) + "       " +
                 progress;
