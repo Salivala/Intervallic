@@ -5,20 +5,22 @@ import main.Controller;
 import main.MathUtils;
 
 import javax.swing.*;
+import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
 import java.time.Duration;
 
-public class View {
-    JFrame frame = new JFrame("Intervallic");
-    JPanel panel = new JPanel();
-    JPanel setPanel = new JPanel();
-    JPanel centerPanel = new JPanel();
-    JComboBox<String> hours, minutes, seconds;
-    JList<String> times;
-    JButton add, start;
-    String[] numbers = new String[60];
-    Controller controller;
-    int k = 0;
+public class View implements Displayable{
+    private final int NEWTICKEROFFSET = 17;
+    private JFrame frame = new JFrame("Intervallic");
+    private JPanel panel = new JPanel();
+    private JPanel setPanel = new JPanel();
+    private JPanel centerPanel = new JPanel();
+    private JComboBox<String> hours, minutes, seconds;
+    private JList<String> times;
+    private JButton add, start;
+    private String[] numbers = new String[60];
+    private Controller controller;
+    private int timerCount = 0;
 
 
     public View(Controller controller) {
@@ -30,7 +32,7 @@ public class View {
         configPanes();
         centerPanel.add(times);
         initComponents();
-        ((DefaultListModel) times.getModel()).add(k++, "|      Intervallic Timers    |");
+        ((DefaultListModel) times.getModel()).add(timerCount++, "|      Intervallic Timers    |");
         addAddActionListener();
         addStartActionListener();
         configFrame();
@@ -74,28 +76,45 @@ public class View {
                     .plusSeconds(1 + Integer.parseInt((String) seconds.getSelectedItem())));
 
              String timeItem = getProgress(time.getStartingDuration(), time.getStartingDuration());
-             time.index = k;
-            ((DefaultListModel) times.getModel()).add(k++, timeItem);
+             controller.addIntervalThread(time, timerCount);
+            ((DefaultListModel) times.getModel()).add(timerCount++, timeItem);
+            /*
             time.addTickListener(() -> {
                 ((DefaultListModel<String>) times.getModel()).set(time.index,
                         getProgress(time.getDuration(), time.getStartingDuration()));
             });
-            controller.addInterval(time);
-            frame.setLocation(frame.getX(), frame.getY() - 17); // set ylocation to the item add offset
+            */
+            //controller.addInterval(time);
+            frame.setLocation(frame.getX(), frame.getY() - NEWTICKEROFFSET); // set ylocation to the item add offset
             frame.pack(); // repack
         });
     }
 
-    public void addStartActionListener() {
+    private void addStartActionListener() {
         start.addActionListener(e -> {
-            controller.startAll();
+            controller.startIntervals();
+            //controller.startAll();
         });
     }
 
-    void addTimer() {
-
+    /**
+     *
+     * @param interval
+     * @param index
+     */
+    public void updateTimer(Interval interval, int index) {
+        ((DefaultListModel) times.getModel()).set(
+                index, getProgress(interval.getDuration(), interval.getStartingDuration())
+        );
     }
 
+    /**
+     * Given two durations, returns a string representing a progress bar of the percent current
+     * is of total
+     * @param current
+     * @param total
+     * @return
+     */
     public String getProgress(Duration current, Duration total) {
         final int totalPossibleBars = 20;
         double percentFromTotal = MathUtils.getPercentOf(current.toSeconds(), total.toSeconds());

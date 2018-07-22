@@ -6,43 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Interval/Interval.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Intervallic_jar/Intervallic.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/interval/Interval.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/interval/ResetListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/interval/TickListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/main/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/main/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/main/IntervalManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/main/MathUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Intervallic/view/View.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/MathUtilsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Intervallic/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+    <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="Fix for 24 hour issue.">
+      <change afterPath="$PROJECT_DIR$/src/view/Displayable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/hayden.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/hayden.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runnables/v2/Intervallic.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runnables/v2/Intervallic.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/interval/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/interval/Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/main/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/main/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/main/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/main/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/main/IntervalManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/view/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interval/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interval/Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/IntervalManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,85 +34,89 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Intervallic$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1531737372874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Intervallic$MathUtilsTest.ic" NAME="MathUtilsTest Coverage Results" MODIFIED="1531737775487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Intervallic$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1531673335248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Intervallic$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1532179490196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntervalManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/IntervalManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interval.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResetListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interval/ResetListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TickListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interval/TickListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/view/View.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Interval.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
+                  <folding>
+                    <element signature="e#1600#1601#0" expanded="true" />
+                    <element signature="e#1633#1634#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ResetListener.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/interval/ResetListener.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TickListener.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/interval/TickListener.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Displayable.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/view/Displayable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
         <option value="XSLT Stylesheet" />
-        <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -191,14 +173,15 @@
         <option value="$PROJECT_DIR$/src/View/IntervalItem.java" />
         <option value="$PROJECT_DIR$/src/tmp/View.java" />
         <option value="$PROJECT_DIR$/src/view/IntervalItem.java" />
-        <option value="$PROJECT_DIR$/src/main/Driver.java" />
         <option value="$PROJECT_DIR$/src/interval/ResetListener.java" />
         <option value="$PROJECT_DIR$/src/interval/TickListener.java" />
-        <option value="$PROJECT_DIR$/src/main/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/IntervalManager.java" />
-        <option value="$PROJECT_DIR$/src/interval/Interval.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/IntervalManager.java" />
+        <option value="$PROJECT_DIR$/src/main/Driver.java" />
+        <option value="$PROJECT_DIR$/src/view/Displayable.java" />
         <option value="$PROJECT_DIR$/src/view/View.java" />
+        <option value="$PROJECT_DIR$/src/main/Controller.java" />
+        <option value="$PROJECT_DIR$/src/interval/Interval.java" />
       </list>
     </option>
   </component>
@@ -212,9 +195,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="y" value="-10" />
+    <option name="width" value="960" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -223,6 +206,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,31 +234,6 @@
             <path>
               <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Interval" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Intervallic_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
               <item name="runnables" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,13 +243,24 @@
             </path>
             <path>
               <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intervallic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intervallic" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,10 +279,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -389,6 +359,16 @@
     </configuration>
     <configuration name="Intervallic.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/Runnables/Intervallic.jar" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Interval" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -467,7 +447,9 @@
       <workItem from="1531757846158" duration="690000" />
       <workItem from="1531766183239" duration="286000" />
       <workItem from="1531836304297" duration="646000" />
-      <workItem from="1531908443017" duration="252000" />
+      <workItem from="1531908443017" duration="404000" />
+      <workItem from="1532149192428" duration="8030000" />
+      <workItem from="1532204188177" duration="4889000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -588,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531757981928</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fix for 24 hour issue.">
+      <created>1531908727761</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1531908727761</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -624,74 +613,74 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128476000" />
+    <option name="totallyTimeSpent" value="141547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-10" width="1920" height="1090" extended-state="6" />
+    <frame x="0" y="-10" width="1600" height="910" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="14" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="18" weight="0.3260026" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info id="Image Layers" order="11" />
-      <window_info anchor="right" id="Capture Analysis" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="17" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32633787" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32947233" />
-      <window_info id="Capture Tool" order="12" />
-      <window_info id="Designer" order="14" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2796875" />
-      <window_info anchor="right" id="Database" order="12" />
-      <window_info id="Learn" order="9" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info id="UI Designer" order="13" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info id="Favorites" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.3984476" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3260026" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19543147" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32947233" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.231875" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984476" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843652" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="15" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3264463" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26547745" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43617022" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32947233" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32633787" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3260026" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23333333" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.231875" />
+      <window_info id="Learn" order="4" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843652" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39874083" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3264463" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984476" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,7 +704,8 @@
     <MESSAGE value="Fixed refactor mistake" />
     <MESSAGE value="Version 2 releae" />
     <MESSAGE value="Version 2 release" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2 release" />
+    <MESSAGE value="Fix for 24 hour issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix for 24 hour issue." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,7 +713,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/TickerRunner.java" />
     <entry file="file://$PROJECT_DIR$/tests/IntervallicTickerTests.java" />
     <entry file="file://$PROJECT_DIR$/src/IntervallicTicker.java" />
     <entry file="file://$PROJECT_DIR$/src/IntervallicTicker.java" />
@@ -819,39 +808,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/IntervalItem.java" />
-    <entry file="file://$PROJECT_DIR$/src/interval/ResetListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interval/TickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/IntervalManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -925,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -945,22 +891,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/IntervalManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interval/TickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interval/ResetListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/view/Displayable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+        <state>
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
           </folding>
         </state>
       </provider>

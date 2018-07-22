@@ -2,20 +2,15 @@ package interval;
 
 import java.time.Duration;
 
-public class Interval extends Thread {
+public class Interval {
     private final Duration startingDuration;
-    private volatile Duration duration;
-    public int index; // optional variable for allowing intervals to keep track of an external placement in a collection
-
-    public boolean isActivated() {
-        return activated;
-    }
-
-    public void setActivated(boolean activated) {
-        this.activated = activated;
-    }
+    private Duration duration;
 
     private volatile boolean activated = true;
+
+    /**
+     * Consider if lambda functionality is actually necessary after implementing callable and future.
+     */
     private ResetListener resetListener;
     private TickListener tickListener;
 
@@ -39,19 +34,8 @@ public class Interval extends Thread {
         this(duration, () -> {/*Default tick action does nothing*/}, () -> {/* default reset action does nothing */});
     }
 
-    @Override
-    public void run() {
-        while (activated) {
-            try {
-                sleep(1000);
-                tick();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 
-    public void addTickListener(TickListener tickListener) {
+    public void addTickListener(TickListener tickListener) { // TODO: Consider if this method is needed
         this.tickListener = tickListener;
     }
 
@@ -71,8 +55,8 @@ public class Interval extends Thread {
          this.duration = duration;
      }
 
-     private void tick() {
-        if (this.duration.toSeconds() == 0) {
+     public void tick() {
+        if (this.duration.toSeconds() == 1) {
             this.duration = this.duration.ofSeconds(this.startingDuration.getSeconds());
             this.tickListener.tickAction();
             this.resetListener.resetAction();
