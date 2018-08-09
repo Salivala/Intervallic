@@ -37,7 +37,7 @@
         </BorderLayout.CENTER>
         <BorderLayout.SOUTH>
             <FlowLayout>
-                <JButton>
+                <JButton name="stop">
                     STOP
                 </JButton>
             </FlowLayout>

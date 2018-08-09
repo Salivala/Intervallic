@@ -36,6 +36,7 @@ public class XmlGeneratedView implements Displayable{
         timerList.setModel(listModel);
         xsp.getButton("add").addActionListener(onAddClick());
         xsp.getButton("start").addActionListener(onStartClick());
+        xsp.getButton("stop").addActionListener(onStopClick());
     }
 
     private ActionListener onAddClick() {
@@ -53,6 +54,8 @@ public class XmlGeneratedView implements Displayable{
     private ActionListener onStartClick() {
         return e -> controller.startIntervals();
     }
+
+    private ActionListener onStopClick() {return e -> controller.stopIntervals();}
 
     private void setComboBoxes() {
         List<String> list = Stream.iterate(BigInteger.ZERO, (integer) ->

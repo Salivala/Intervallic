@@ -6,21 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="Fix for 24 hour issue.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/XmlSwingConverter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/XmlSwingConverter.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/XmlGeneratedView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/view.xml" afterDir="false" />
+    <list default="true" id="c1214b91-579e-46bc-bace-cdf0951daa49" name="Default" comment="Redid the interface using my new project, XmlSwingConverter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intervallic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Intervallic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/interval/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/interval/Interval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/main/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/main/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/main/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/main/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Intervallic/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Intervallic/view/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interval/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interval/Interval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/XmlGeneratedView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/XmlGeneratedView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/view.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,25 +28,28 @@
     <session id="1716924360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7395" />
-          <entry key="xml" value="1211" />
+          <entry key="java" value="7918" />
+          <entry key="txt" value="70" />
+          <entry key="xml" value="1224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7395" />
-          <entry key="XML" value="1211" />
+          <entry key="JAVA" value="7918" />
+          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="XML" value="1224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,7 +75,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
+                <state relative-caret-position="1104">
                   <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
                   <folding>
                     <element signature="e#1591#1592#0" expanded="true" />
@@ -92,24 +85,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/view/View.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="727">
+                <state relative-caret-position="1093">
                   <caret line="106" column="4" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#3984#4008#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+                <state relative-caret-position="207">
+                  <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -163,8 +155,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/view/view.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+                <state relative-caret-position="506">
+                  <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -172,15 +164,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/view/XmlGeneratedView.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+                <state relative-caret-position="184">
+                  <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1975#1976#0" expanded="true" />
-                    <element signature="e#2030#2031#0" expanded="true" />
-                    <element signature="e#1605#1629#0" expanded="true" />
-                    <element signature="e#2324#2325#0" expanded="true" />
-                    <element signature="e#2394#2395#0" expanded="true" />
+                    <element signature="e#2813#2837#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -257,12 +245,12 @@
         <option value="$PROJECT_DIR$/src/main/IntervalManager.java" />
         <option value="$PROJECT_DIR$/src/view/Displayable.java" />
         <option value="$PROJECT_DIR$/src/interval/ResetListener.java" />
-        <option value="$PROJECT_DIR$/src/main/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/Driver.java" />
-        <option value="$PROJECT_DIR$/src/view/view.xml" />
         <option value="$PROJECT_DIR$/src/view/View.java" />
         <option value="$PROJECT_DIR$/src/interval/Interval.java" />
+        <option value="$PROJECT_DIR$/src/view/view.xml" />
         <option value="$PROJECT_DIR$/src/view/XmlGeneratedView.java" />
+        <option value="$PROJECT_DIR$/src/main/Controller.java" />
       </list>
     </option>
   </component>
@@ -282,6 +270,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,9 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +329,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533781802297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533783380662" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../XmlSwingConverter" />
@@ -502,7 +490,8 @@
       <workItem from="1533678979883" duration="5427000" />
       <workItem from="1533699230538" duration="1329000" />
       <workItem from="1533707019721" duration="3992000" />
-      <workItem from="1533764484258" duration="4262000" />
+      <workItem from="1533764484258" duration="5209000" />
+      <workItem from="1533791195609" duration="2520000" />
     </task>
     <task id="LOCAL-00001" summary="Began refactoring on interval ticker, removed atom field and added testing framework">
       <created>1531159643808</created>
@@ -630,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531908727761</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Redid the interface using my new project, XmlSwingConverter">
+      <created>1533781870989</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1533781870989</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,13 +662,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156854000" />
+    <option name="totallyTimeSpent" value="160321000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-10" width="1920" height="1090" extended-state="6" />
+    <frame x="0" y="-10" width="1600" height="910" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1650641" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16752577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -682,7 +678,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3264463" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14512712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14397906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49867374" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -758,7 +754,8 @@
     <MESSAGE value="Version 2 releae" />
     <MESSAGE value="Version 2 release" />
     <MESSAGE value="Fix for 24 hour issue." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix for 24 hour issue." />
+    <MESSAGE value="Redid the interface using my new project, XmlSwingConverter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redid the interface using my new project, XmlSwingConverter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/first.java" />
@@ -912,6 +909,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/XmlSwingConverter/xmlswingconverter/hsszyman/com/github/XmlSwingPage.class" />
+    <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding>
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -943,56 +951,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interval/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-          <folding>
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
+        <state relative-caret-position="1093">
           <caret line="106" column="4" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3984#4008#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/XmlGeneratedView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="184">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#1605#1629#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2813#2837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

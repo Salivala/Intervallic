@@ -52,4 +52,10 @@ public class Controller {
             }
         }
     }
+
+    public void stopIntervals() {
+        for (Thread thread : intervalThreads) {
+            thread.interrupt();
+        }
+    }
 }
