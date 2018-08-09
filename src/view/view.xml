@@ -1,0 +1,46 @@
+<XSP title="intervallic" size="300x600">
+    <BorderLayout>
+        <BorderLayout.NORTH>
+            <BorderLayout>
+                <BorderLayout.NORTH>
+                    <FlowLayout>
+                        <JLabel> |        INTERVAL TIMERS        | </JLabel>
+                    </FlowLayout>
+                </BorderLayout.NORTH>
+                <BorderLayout.CENTER>
+                    <BoxLayout orientation="vertical">
+                        <FlowLayout>
+                            <JComboBox name="hours">
+                            </JComboBox>
+                            <JComboBox name="minutes">
+                            </JComboBox>
+                            <JComboBox name="seconds">
+                            </JComboBox>
+                        </FlowLayout>
+                        <FlowLayout>
+                            <JButton name="add">
+                                Add Interval
+                            </JButton>
+                            <JButton name="start">
+                                Start Intervals
+                            </JButton>
+                        </FlowLayout>
+                    </BoxLayout>
+                </BorderLayout.CENTER>
+            </BorderLayout>
+        </BorderLayout.NORTH>
+        <BorderLayout.CENTER>
+            <FlowLayout>
+                <JList scroll="true" name="timerlist">
+                </JList>
+            </FlowLayout>
+        </BorderLayout.CENTER>
+        <BorderLayout.SOUTH>
+            <FlowLayout>
+                <JButton>
+                    STOP
+                </JButton>
+            </FlowLayout>
+        </BorderLayout.SOUTH>
+    </BorderLayout>
+</XSP>

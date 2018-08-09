@@ -5,7 +5,6 @@ import main.Controller;
 import main.MathUtils;
 
 import javax.swing.*;
-import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
 import java.time.Duration;
 
@@ -36,7 +35,6 @@ public class View implements Displayable{
         addAddActionListener();
         addStartActionListener();
         configFrame();
-
     }
 
     void initComponents() {
@@ -114,7 +112,7 @@ public class View implements Displayable{
      * @param current
      * @param total
      * @return
-     */
+     */ @SuppressWarnings("ALL")
     public String getProgress(Duration current, Duration total) {
         final int totalPossibleBars = 20;
         double percentFromTotal = MathUtils.getPercentOf(current.toSeconds(), total.toSeconds());

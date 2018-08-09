@@ -56,8 +56,8 @@ public class Interval {
      }
 
      public void tick() {
-        if (this.duration.toSeconds() == 1) {
-            this.duration = this.duration.ofSeconds(this.startingDuration.getSeconds());
+        if (this.duration.toSeconds() == 0) {
+            this.duration = Duration.ofSeconds(this.startingDuration.getSeconds());
             this.tickListener.tickAction();
             this.resetListener.resetAction();
         }

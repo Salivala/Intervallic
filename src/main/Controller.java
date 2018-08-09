@@ -2,19 +2,18 @@ package main;
 
 
 import interval.Interval;
-import javafx.concurrent.Worker;
+//import javafx.concurrent.Worker;
 import view.Displayable;
 import view.View;
+import view.XmlGeneratedView;
 
-import java.time.Duration;
 import java.util.ArrayList;
-
 public class Controller {
     Runnable updateAction;
     ArrayList<Thread> intervalThreads;
     Displayable view;
     Controller() {
-        view = new View(this);
+        view = new XmlGeneratedView(this);
         intervalThreads = new ArrayList<>(100);
     }
 
@@ -38,8 +37,7 @@ public class Controller {
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    return;
+                    Thread.currentThread().interrupt();
                 }
                 interval.tick();
             }
